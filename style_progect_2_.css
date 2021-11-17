@@ -1,0 +1,326 @@
+html{
+    background-color:#f6eced;
+    min-width: 1280px;
+}
+body {
+ /* width: 1280px; */
+    height: auto ;
+    color: grey;
+    margin: 0px 50px;
+    border: 5px solid silver ;
+    background-color: rgb(255, 255, 255);
+    margin:0 auto;
+ 
+}
+.rev_slider{
+        width: 1280px;
+       
+        background:linear-gradient(to top, rgba(241, 209, 205, 0.8), rgba(255, 217, 211, 0.8)), url('photo_2021-11-02_13-13-20.png');
+        background-size:cover;
+        background-position:center center;
+        height: 710px;
+        margin: auto;
+        display: flex;
+        justify-content: center;
+}
+
+.photos{
+  height: 710px;
+    display: block;
+    margin: 0 auto;
+}
+
+header{
+    width: 100%;  
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: #fff;
+    height: 180px;
+    background: #f6eced;
+    margin: -2px 0px;
+}
+.logo{
+    width: 150px;
+    display: block;
+    float: left;
+    background:image("image\logo (2).png");
+        position: relative;
+    top: 0;
+    margin: 20px 0px 0px 0px;
+}
+/* .fullscreen{
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 440px;
+    text-align: center;
+    color: rgb(216, 22, 22);
+    background:url('../progect_2_/image/vyshivka-lentami-dlya-nachinayushchikh-06.jpg');
+} */
+
+/* Work with menu */
+.menu{
+    width: auto;
+    font-variant: small-caps;
+    padding: 2%;
+    background-attachment: fixed;
+    background-position: center;
+    margin: auto;
+}
+.menu>ul{
+    display: flex;
+    justify-content: center;
+
+}
+.menu ul{
+    list-style: none;
+}
+.menu ul a{
+    display: block;
+    background: rgb(255, 255, 255);
+    padding: 5px 10px 5px 10px;
+    font-size: 20px;
+    color: #f08373;
+    text-decoration: none;
+    text-transform: uppercase; 
+    transition: all 0.4s ease;
+    border:10px solid #f6eced;
+    font-size: 250%;
+    border-radius: 100px;
+}
+.menu a:hover{
+    color: rgb(255, 255, 255);
+    background: #f08373;
+    box-shadow: 5px 5px 15px -10px black;
+}
+/* Work with menu */
+.begin>h1{
+    color: #bd3d29;
+    
+}
+.begin>h2{
+    color: #d3978e;
+}
+/* Work with story */
+.my_history_title{
+    text-align: center;
+    font-size: 200%;
+    font-weight: 900;
+    color: #bd3d29;
+    text-transform: uppercase;
+}
+
+.history_text{
+    margin: auto;
+    width: 1260px;
+    line-height: 30px;
+    font-size: 200%;
+}
+.futuredrims>h1{
+    font-size: 50px;
+    text-align: center;
+}
+/* Work with story */
+/* Work with catalogs */
+
+.containerr {
+    display: grid;
+    grid-gap: 100px;
+    grid-template-columns: repeat(auto-fit,minmax(300px, 1fr));
+    grid-template-rows: repeat(2, 450px);
+    max-width: 100%;
+    background-size: 1280px;
+    margin: 0px 70px 0px 0px;
+	padding: 0px 20px;
+}
+.containerr img {
+    height: 300px;
+    object-fit: cover;
+    display: block;
+   margin: 0 auto;
+   padding: 25px 0px 0px 0px  ;
+    border-radius: 9%;
+    border-top-left-radius: 15% ;
+    border-top-right-radius: 15% ;
+   transition: 1s;
+text-decoration: none;
+}
+
+.containerr img:hover{
+    transform: scale(1.2);
+}
+.bigcatalog{
+    background:linear-gradient(to top, rgba(241, 209, 205, 0.8), rgba(255, 217, 211, 0.8)), url('photo_2021-11-02_12-58-21.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    margin: -22px 0px -8px 0px;
+}
+
+.catalog_one{
+text-decoration: none;
+color:#bd3d29;
+} 
+
+.textone{
+    margin: 40px;
+    text-align: center;
+    }
+
+.catalog_title{
+    text-align: center;
+    color:#bd3d29;
+    padding: 25px 0 0 0;      
+}
+
+/* Work with contacts */
+.contacttext{
+    width: 250px;
+}
+.allcontacts ul{
+   width:  900px;
+   position: relative;
+   list-style: none;
+}
+.allcontacts a{
+    text-decoration: none;
+    color: rgb(204, 80, 80);
+}
+/* .fullscreen{
+    width: 1280px;
+} */
+
+.twoclasscontact{
+    display: flex;
+    justify-content:center;
+    font-size: 150%;
+    line-height: 50px;
+      margin: 0px 20px ;
+}
+
+.contacttext>p {
+    background: rgb(216, 208, 208);
+    margin: 20px 0px ;
+    padding: 0px 15px;
+    position: relative;
+    top:4px;
+    border-radius: 20px;
+}
+.contacttext>p::after{
+    content: ':';
+}
+.allcontacts li{
+    margin: 20px 0px ;
+    padding: 0px 15px;
+    background: rgb(250, 243, 243);
+    border-radius: 30px;
+}
+
+.title{
+    margin: auto;
+    padding: 20px ;
+    text-align: center;
+}
+.contacts{
+    color: rgb(221, 64, 64);
+    background:linear-gradient(to top, rgba(241, 209, 205, 0.8), rgba(255, 217, 211, 0.8)), url('photo_2021-11-02_13-21-09.png') ;
+    /* background-size: 1280px; */
+}
+/* Work with contacts */
+/* Work with galerry */
+.containers{
+    width: 80%;
+    margin: 30px auto;
+    overflow: hidden;
+}
+.containers ul li{
+    height:500px;
+    text-decoration: none;
+    color:#bd3d29;
+    padding: 35px;
+    display: block;
+    width: 100%;
+    float: left;
+    transition: width .2s;
+    
+}
+.containers ul li a img{
+    height:500px;
+    text-decoration: none;
+    color:#bd3d29;
+    padding: 35px;
+    display: block;
+    float: left;
+    transition: width .2s;
+}
+/* Work with galerry */
+.galery {
+    display: grid;
+    grid-gap: 150px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+    grid-template-rows: repeat(2, 400px);
+margin: 0px 0 10px 0;
+padding: 20px;
+
+}
+.galery > div > img {
+    height: 400px;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto;
+    padding: -20px 0px 20px 25px  ;
+    border-radius: 10px;
+  
+}
+.daisyback{
+    background:linear-gradient(to top, rgba(241, 209, 205, 0.8), rgba(255, 217, 211, 0.8)), url('daisy_back.jpg' );
+    background-size: cover;
+}
+.roses_back{
+    background:linear-gradient(to top, rgba(241, 209, 205, 0.8), rgba(255, 217, 211, 0.8)), url('resesback.jpg' );
+    background-size: cover;
+}
+.easter_towels_back{
+    background:linear-gradient(to top, rgba(241, 209, 205, 0.8), rgba(255, 217, 211, 0.8)), url('eatertoweback.jpg' );
+    background-size: 1280px;
+}
+.pionies_back{
+    background:linear-gradient(to top, rgba(241, 209, 205, 0.8), rgba(255, 217, 211, 0.8)), url('pioniesback.jpg' );
+background-size: cover;
+}
+.popies_back{
+    background:linear-gradient(to top, rgba(241, 209, 205, 0.8), rgba(255, 217, 211, 0.8)), url('popiesback.jpg' );
+    background-size: cover;
+}
+.sunflovers_back{
+    background:linear-gradient(to top, rgba(241, 209, 205, 0.8), rgba(255, 217, 211, 0.8)), url('sunfloversback.jpg' );
+    background-size: 1280px;
+}
+.watches_back{
+    background:linear-gradient(to top, rgba(241, 209, 205, 0.8), rgba(255, 217, 211, 0.8)), url('watchesback.jpg' );
+    background-size: cover;
+}
+.other_catalog_back{
+    background:linear-gradient(to top, rgba(241, 209, 205, 0.8), rgba(255, 217, 211, 0.8)), url('othercatalog.jpg' );
+    background-size: cover;
+}
+.footerdown{
+    font-size: 25px;
+    color: #f08373;
+    margin: 10px -20px 0px 0px ;
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+

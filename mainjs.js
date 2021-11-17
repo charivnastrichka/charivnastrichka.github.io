@@ -5,7 +5,7 @@ $(function(){
             arrow:false,
             dots:true,
             autoplay:true,
-            autoplaySpeed:3500
+            autoplaySpeed:2500
         }
         );
     

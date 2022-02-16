@@ -117,7 +117,8 @@ header{
     margin: auto;
     width: 1260px;
     line-height: 30px;
-    font-size: 200%;
+    letter-spacing: 2px;
+    font-size: 220%;
 }
 .futuredrims>h1{
     font-size: 50px;
